@@ -1,0 +1,44 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    color: red;
+    padding-top: 20px;
+
+    .navbar-section {
+        display: flex;
+        align-items: flex-end;
+
+        img {
+            margin-right: 25px;
+        }
+    }
+
+    .navbar-discord {
+        display: flex;
+        align-items: center;
+
+        button {
+            padding: 0.5rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 400;
+            border: none;
+            font-size: 18px;
+            background-color: $discord-color;
+            color: rgb(255, 255, 255);
+
+            i {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+
+    a {
+        width: 80px;
+        margin: 0 8px;
+        color: $primary-color;
+    }
+}

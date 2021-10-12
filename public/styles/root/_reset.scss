@@ -117,6 +117,7 @@ textarea {
 
 body {
     margin: 0;
+    padding: 0 95px;
 }
 
 // =============================================================================
@@ -523,4 +524,9 @@ input {
             *width: 13px; // 3
         }
     }
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-/* ADD GA */
+/* ADD GA */ /* ~/lib folder */
 class Site extends Document {
   render() {
     return (

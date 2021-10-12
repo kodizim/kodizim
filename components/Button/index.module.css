@@ -1,7 +1,7 @@
 .main {
-  @apply text-red font-black;
+  @apply text-warning font-black;
 }
 
 .active {
-  @apply text-trans;
+  @apply text-discord;
 }

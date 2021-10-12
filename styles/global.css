@@ -1,19 +1,22 @@
 :root {
-  --c-turk: hsl(183, 65%, 50%);
-  --c-black: rgb(19, 27, 35);
-  --c-dark: rgb(29, 37, 45);
-  --c-dark-80: rgba(29, 37, 45, 0.8);
-  --c-dark-60: rgba(29, 37, 45, 0.6);
-  --c-dark-40: rgba(29, 37, 45, 0.4);
-  --c-dark-20: rgba(29, 37, 45, 0.2);
-  --c-dark-10: rgba(29, 37, 45, 0.1);
-  --c-dark-05: rgba(29, 37, 45, 0.05);
-  --c-white: rgb(255, 255, 255);
-  --c-white-70: rgba(255, 255, 255, 0.7);
-  --c-white-50: rgba(255, 255, 255, 0.5);
-  --c-white-30: rgba(255, 255, 255, 0.3);
-  --c-white-20: rgba(255, 255, 255, 0.2);
-  --c-white-10: rgba(255, 255, 255, 0.1);
-  --c-white-05: rgba(255, 255, 255, 0.05);
-  --c-red: red;
+  --primary-color: #5affc9;
+  --secondary-color: #355575;
+  --shadow-color: #355576;
+  --danger-color: #e53549;
+  --warning-color: #ffcf5c;
+  --success-color: #00c48c;
+  --info-color: #f4f6f9;
+  --light-color: #f4f6f9;
+  --gray-color: #6c757d;
+  --discord-color: #5165f6;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Tungsten";
+    src: url("/fonts/subset-Tungsten-Medium.woff2") format("woff2"),
+      url("/fonts/subset-Tungsten-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
 }

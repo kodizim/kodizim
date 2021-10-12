@@ -1,11 +1,13 @@
-import { Navbar } from "../components";
-
+import Layout from "@c/layout";
+import Seo from "@c/layout/seo";
 function LandingPage() {
   return (
-    <div className="landing-container">
-      <Navbar />
-      <h3>Hello Kodizim</h3>
-    </div>
+    <>
+      <Layout>
+        <Seo />
+        sadasdasd
+      </Layout>
+    </>
   );
 }
 export default LandingPage;

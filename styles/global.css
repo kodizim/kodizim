@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #5affc9;
+  --secondary-color: #355575;
+  --shadow-color: #355576;
+  --danger-color: #e53549;
+  --warning-color: #ffcf5c;
+  --success-color: #00c48c;
+  --info-color: #f4f6f9;
+  --light-color: #f4f6f9;
+  --gray-color: #6c757d;
+  --discord-color: #5165f6;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Tungsten";
+    src: url("/fonts/subset-Tungsten-Medium.woff2") format("woff2"),
+      url("/fonts/subset-Tungsten-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+}

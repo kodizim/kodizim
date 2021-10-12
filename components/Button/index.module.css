@@ -1,0 +1,7 @@
+.main {
+  @apply text-warning font-black;
+}
+
+.active {
+  @apply text-discord;
+}

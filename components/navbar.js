@@ -1,16 +1,12 @@
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@svg/Logo.js";
 
 function Navbar() {
   return (
     <nav className="navbar-container">
       <div className="navbar-section">
         <Link href="/">
-          <Image
-            src="/assets/images/kodizim-logo.svg"
-            width="174"
-            height="44"
-          />
+          <Logo />
         </Link>
         <Link href="/">
           <a>Hakkımda</a>

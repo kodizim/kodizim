@@ -1,0 +1,3 @@
+.header {
+    @apply container mx-auto flex justify-between border-2 border-danger border-solid;
+}

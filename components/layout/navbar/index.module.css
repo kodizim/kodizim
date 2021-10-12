@@ -1,0 +1,7 @@
+.navWrapper {
+    @apply flex justify-center items-center;
+}
+
+.navList {
+    @apply flex;
+}

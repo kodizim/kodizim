@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #5affc9;
-  --secondary-color: #355575;
+  --primary-color: #2f455c;
+  --secondary-color: #5affc9;
   --shadow-color: #355576;
   --danger-color: #e53549;
   --warning-color: #ffcf5c;
@@ -12,11 +12,38 @@
 }
 
 @layer base {
+  html {
+    @apply select-none;
+  }
+  body {
+    @apply bg-primary m-0 antialiased font-primary;
+  }
+  a {
+    @apply no-underline hover:text-secondary visited:text-secondary;
+  }
+  li {
+    @apply list-none p-0;
+  }
+  ol,
+  ul {
+    @apply list-none m-0 p-0;
+  }
   @font-face {
-    font-family: "Tungsten";
-    src: url("/fonts/subset-Tungsten-Medium.woff2") format("woff2"),
-      url("/fonts/subset-Tungsten-Medium.woff") format("woff");
-    font-weight: normal;
+    font-family: "IBM Plex Sans";
+    src: url("/fonts/IBMPlexSans-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "IBM Plex Sans";
+    src: url("/fonts/IBMPlexSans-Medium.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "IBM Plex Sans";
+    src: url("/fonts/IBMPlexSans-SemiBold.ttf") format("ttf");
+    font-weight: 600;
     font-style: normal;
   }
 }

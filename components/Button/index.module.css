@@ -1,0 +1,7 @@
+.main {
+  @apply text-red font-black;
+}
+
+.active {
+  @apply text-trans;
+}

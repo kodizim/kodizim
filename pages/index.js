@@ -1,11 +1,13 @@
-import { Navbar } from "../components";
-
+import { Navbar } from '../components'
+import Button from '../components/Button'
 function LandingPage() {
-  return (
-    <div className="landing-container">
-      <Navbar />
-      <h3>Hello Kodizim</h3>
-    </div>
-  );
+    return (
+        <div className="landing-container">
+            <Navbar />
+            <h3>Hello Kodizim</h3>
+            <Button />
+            <Button active />
+        </div>
+    )
 }
-export default LandingPage;
+export default LandingPage

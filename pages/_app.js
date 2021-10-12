@@ -1,4 +1,4 @@
-import "../public/styles/app.scss";
+import "@s/global.css";
 
 function Kodizim({ Component, pageProps }) {
   return <Component {...pageProps} />;

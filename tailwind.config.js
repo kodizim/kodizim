@@ -30,6 +30,7 @@ module.exports = {
       default: "0.375rem 0.75rem",
       small: "0.19rem 0.375rem",
       large: "0.75rem 1.5rem",
+      0: "0px",
       1: "1px",
       2: "2px",
       3: "3px",
@@ -41,7 +42,9 @@ module.exports = {
   },
 
   variants: {
-    extend: {},
+    extend: {
+      textColor: ["visited"],
+    },
   },
   plugins: [],
 };

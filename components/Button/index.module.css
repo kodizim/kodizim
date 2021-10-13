@@ -1,11 +1,19 @@
 .main {
-  @apply text-warning font-black;
+  @apply text-warning font-black cursor-pointer;
 }
 
 .discord {
-  @apply flex items-center bg-discord py-6 px-36 rounded-3xl;
+  @apply flex items-center bg-discord py-6 px-36 rounded-3xl cursor-pointer;
 }
 
 .discord p {
   @apply pl-12 text-white;
+}
+
+.join {
+  @apply flex items-center bg-primary py-6 px-36 rounded-3xl cursor-pointer;
+}
+
+.join p {
+  @apply pl-12 text-white pr-16;
 }

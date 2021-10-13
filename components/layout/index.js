@@ -1,4 +1,5 @@
 import Header from "./header";
+import Section from "./section";
 import Seo from "./seo";
 
 function Layout({ children }) {
@@ -8,6 +9,7 @@ function Layout({ children }) {
         <Seo />
         <Header />
       </div>
+      <Section />
       <main>{children}</main>
     </>
   );

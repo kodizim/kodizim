@@ -14,11 +14,12 @@ export default function Navbar() {
       </div>
       <nav>
         <ul className={styles.navList}>
-          {Nav.map((n, i) => (
-            <li key={n.name + i}>
-              <NavbarElement name={n.name} link={n.link} />
-            </li>
-          ))}
+          {Nav &&
+            Nav.map((n, i) => (
+              <li key={n.name + i}>
+                <NavbarElement name={n.name} link={n.link} />
+              </li>
+            ))}
         </ul>
       </nav>
     </div>

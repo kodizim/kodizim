@@ -22,7 +22,7 @@ export default function Event() {
                 key={card.title + card.variant}
                 title={card.title}
                 desc={card.desc}
-                index={i}
+                variant={card.variant}
               />
             ))}
         </div>

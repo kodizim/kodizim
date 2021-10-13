@@ -1,4 +1,4 @@
-export default function SvgComponent() {
+export default function WorkshopEvent() {
   return (
     <svg
       width={265}

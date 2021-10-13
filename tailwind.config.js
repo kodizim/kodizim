@@ -12,7 +12,10 @@ module.exports = {
       xxl: "1536px",
     },
     maxWidth: {
-      screen: "100%",
+      "1/4": "25%",
+      "1/2": "50%",
+      "3/4": "75%",
+      full: "100%",
     },
     colors: {
       primary: "var(--primary-color)",
@@ -46,6 +49,7 @@ module.exports = {
       40: "40px",
       48: "48px",
       54: "54px",
+      76: "76px",
     },
     zIndex: {},
     fontFamily: {
@@ -56,6 +60,8 @@ module.exports = {
       14: "14px",
       16: "16px",
       18: "18px",
+      24: "24px",
+      36: "36px",
       h1: "66px",
       h2: "50px",
       h3: "46px",

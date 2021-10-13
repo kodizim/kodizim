@@ -1,18 +1,24 @@
-import React from "react";
-
 import styles from "./index.module.css";
 import cn from "classnames";
 
 import DiscordIcon from "@svg/DiscordIcon";
+import { ArrowRight } from "@svg";
 
-function Button({ main = true, discord }) {
+function Button(option) {
   return (
     <>
-      {main && !discord && <div className={cn(styles.main)}>Aramıza katıl</div>}
-      {discord && (
+      {!option && <div className={cn(styles.main)}>{option}</div>}
+      {option.main && <div className={cn(styles.main)}>Aramıza katıl</div>}
+      {option.discord && (
         <div className={cn(styles.discord)}>
           <DiscordIcon />
           <p> Discord </p>
+        </div>
+      )}
+      {option.join && (
+        <div className={cn(styles.join)}>
+          <p> Etkinlikler </p>
+          <ArrowRight />
         </div>
       )}
     </>

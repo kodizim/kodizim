@@ -10,7 +10,7 @@ export default function Seo({ title }) {
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
 
-      <title>Hello Furkan</title>
+      <title>Kodizim</title>
       <meta name="description" content="" />
 
       <meta name="twitter:card" content="summary" />

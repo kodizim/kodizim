@@ -1,0 +1,15 @@
+.wrapper {
+    @apply flex flex-col items-center text-center;
+}
+
+.cardsWrapper {
+    @apply flex;
+}
+
+.headTitle {
+    @apply text-secondary text-36 text-secondary;
+}
+
+.headDesc {
+    @apply text-white text-18 max-w-1/2 items-center justify-center text-center mx-auto;
+}

@@ -1,5 +1,5 @@
 import styles from "./index.module.css";
-import Developer from "@svg/Developer";
+import { Developer } from "@svg";
 import Button from "@c/button";
 
 export default function Section() {

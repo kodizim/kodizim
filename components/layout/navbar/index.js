@@ -1,4 +1,4 @@
-import Logo from "@svg/Logo";
+import { Logo } from "@svg";
 import styles from "./index.module.css";
 import NavbarElement from "./element";
 import { Nav } from "@const";

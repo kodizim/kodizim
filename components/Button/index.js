@@ -2,7 +2,7 @@ import styles from "./index.module.css";
 import cn from "classnames";
 
 import DiscordIcon from "@svg/DiscordIcon";
-import ArrowRight from "@svg/ArrowRight";
+import { ArrowRight } from "@svg";
 
 function Button(option) {
   return (

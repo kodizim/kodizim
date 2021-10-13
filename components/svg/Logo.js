@@ -1,6 +1,9 @@
+import styles from "./Logo.module.css";
+
 export default function Logo() {
   return (
     <svg
+      className={styles.logo}
       width="174"
       height="44"
       viewBox="0 0 174 44"

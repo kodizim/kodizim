@@ -1,3 +1,7 @@
 .header {
-    @apply container mx-auto flex justify-between border-2 border-danger border-solid;
+  @apply md:container md:flex mx-auto  justify-between py-8 xs:pt-12 md:pt-54;
+}
+
+.btnWrapper {
+  @apply xs:flex justify-center xs:mt-16 md:mt-0;
 }

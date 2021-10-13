@@ -3,11 +3,19 @@ import React from "react";
 import styles from "./index.module.css";
 import cn from "classnames";
 
-function Button({ active }) {
+import DiscordIcon from "@svg/DiscordIcon";
+
+function Button({ main = true, discord }) {
   return (
-    <div className={cn(styles.main, active && styles.active)}>
-      Aramıza katıl
-    </div>
+    <>
+      {main && !discord && <div className={cn(styles.main)}>Aramıza katıl</div>}
+      {discord && (
+        <div className={cn(styles.discord)}>
+          <DiscordIcon />
+          <p> Discord </p>
+        </div>
+      )}
+    </>
   );
 }
 

@@ -2,6 +2,10 @@
   @apply text-warning font-black;
 }
 
-.active {
-  @apply text-discord;
+.discord {
+  @apply flex items-center bg-discord py-6 px-36 rounded-3xl;
+}
+
+.discord p {
+  @apply pl-12 text-white;
 }

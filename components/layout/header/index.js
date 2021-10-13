@@ -6,7 +6,7 @@ function Header() {
     <div className={styles.header}>
       <Navbar />
       <div className={styles.btnWrapper}>
-        <Button discord />
+        <Button option="discord" />
       </div>
     </div>
   );

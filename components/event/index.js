@@ -18,13 +18,12 @@ export default function Event() {
         <div className={styles.cardsWrapper}>
           {CardInfo &&
             CardInfo.map((card, i) => (
-              <li key={card.title + card.variant}>
-                <Card
-                  title={card.title}
-                  desc={card.desc}
-                  variant={card.variant}
-                />
-              </li>
+              <Card
+                key={card.title + card.variant}
+                title={card.title}
+                desc={card.desc}
+                variant={card.variant}
+              />
             ))}
         </div>
       </div>

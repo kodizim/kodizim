@@ -1,5 +1,7 @@
 import styles from "./card.module.css";
-//<Event variant={variant} />;
+import DiscordEvent from "@svg/DiscordEvent";
+import PairProgramming from "@svg/PairProgramingEvent";
+import WorkshopEvent from "@svg/WorkshopEvent";
 
 export default function Card({ title, desc, variant }) {
   return (

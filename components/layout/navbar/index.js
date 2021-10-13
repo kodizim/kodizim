@@ -9,7 +9,9 @@ export default function Navbar() {
     <div className={styles.navWrapper}>
       <div className={styles.logoWrap}>
         <Link href="/">
-          <Logo />
+          <a>
+            <Logo />
+          </a>
         </Link>
       </div>
       <nav>

@@ -1,0 +1,29 @@
+.hero {
+  @apply mt-95 container mx-auto;
+}
+.heroGrid {
+  @apply grid grid-cols-5 gap-16;
+}
+.left {
+  @apply col-span-2;
+}
+
+.imgContainer {
+  @apply col-span-3 flex max-w-full;
+}
+
+.imgContainer {
+  width: max-content;
+  display: flex;
+}
+.imgContainer > div {
+  position: unset !important;
+  display: flex !important;
+}
+
+.imgContainer .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}

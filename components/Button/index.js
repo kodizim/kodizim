@@ -4,7 +4,7 @@ import cn from "classnames";
 import DiscordIcon from "@svg/DiscordIcon";
 import { ArrowRight } from "@svg";
 
-function Button(children = "Aramıza Katıl", option = "main") {
+function Button({ children = "Aramıza Katıl", option }) {
   return (
     <>
       {option === "main" && <div className={cn(styles.main)}>{children} </div>}

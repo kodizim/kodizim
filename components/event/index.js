@@ -3,6 +3,7 @@ import { CardInfo } from "@const";
 import Card from "./card";
 
 export default function Event() {
+  console.log(CardInfo);
   return (
     <div>
       <div className={styles.wrapper}>
@@ -19,11 +20,7 @@ export default function Event() {
           {CardInfo &&
             CardInfo.map((card, i) => (
               <li key={card.title + card.variant}>
-                <Card
-                  title={card.title}
-                  desc={card.desc}
-                  variant={card.variant}
-                />
+                <Card title={card.title} desc={card.desc} index={i} />
               </li>
             ))}
         </div>

@@ -1,3 +1,3 @@
 .link {
-    @apply pt-12 pb-8 px-24;
+  @apply pt-12 pb-8 px-24 font-normal;
 }

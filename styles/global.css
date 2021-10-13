@@ -9,6 +9,7 @@
   --light-color: #f4f6f9;
   --gray-color: #6c757d;
   --discord-color: #5165f6;
+  --white: #fff;
 }
 
 @layer base {
@@ -16,7 +17,7 @@
     @apply select-none;
   }
   body {
-    @apply bg-primary m-0 antialiased font-primary;
+    @apply bg-primary m-0 antialiased font-primary text-16 font-bold;
   }
   a {
     @apply no-underline hover:text-secondary visited:text-secondary;
@@ -29,20 +30,23 @@
     @apply list-none m-0 p-0;
   }
   @font-face {
-    font-family: "IBM Plex Sans";
-    src: url("/fonts/IBMPlexSans-Regular.ttf") format("ttf");
+    font-family: "IBM Plex Sans", sans-serif;
+    src: url("/assets/fonts/ibm-plex-sans-v9-latin-regular.woff") format("woff"),
+      url("/assets/fonts/ibm-plex-sans-v9-latin-regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
   }
   @font-face {
-    font-family: "IBM Plex Sans";
-    src: url("/fonts/IBMPlexSans-Medium.ttf") format("ttf");
+    font-family: "IBM Plex Sans", sans-serif;
+    src: url("/assets/fonts/ibm-plex-sans-v9-latin-500.woff") format("woff"),
+      url("/assets/fonts/ibm-plex-sans-v9-latin-500.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
   }
   @font-face {
-    font-family: "IBM Plex Sans";
-    src: url("/fonts/IBMPlexSans-SemiBold.ttf") format("ttf");
+    font-family: "IBM Plex Sans", sans-serif;
+    src: url("/assets/fonts/ibm-plex-sans-v9-latin-600.woff") format("woff"),
+      url("/assets/fonts/ibm-plex-sans-v9-latin-600.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
   }

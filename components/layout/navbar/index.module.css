@@ -1,7 +1,11 @@
 .navWrapper {
-    @apply flex justify-center items-center;
+  @apply xs:flex-col	 flex md:flex-row justify-center items-center;
 }
 
 .navList {
-    @apply flex;
+  @apply flex md:pl-48 mt-24;
+}
+
+.logoWrap {
+  @apply flex min-h-full items-center;
 }

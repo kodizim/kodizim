@@ -4,7 +4,7 @@ import cn from "classnames";
 import DiscordIcon from "@svg/DiscordIcon";
 import { ArrowRight } from "@svg";
 
-function Button({ children = "Aramıza Katıl", option }) {
+function Button({ children = "Aramıza Katıl", option, bgOnShadow }) {
   return (
     <>
       {option === "main" && <div className={cn(styles.main)}>{children} </div>}
@@ -15,7 +15,7 @@ function Button({ children = "Aramıza Katıl", option }) {
         </div>
       )}
       {option === "join" && (
-        <div className={cn(styles.join)}>
+        <div className={cn(styles.join, bgOnShadow && styles.bgOnShadow)}>
           <p> {children} </p>
           <ArrowRight />
         </div>

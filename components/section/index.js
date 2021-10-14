@@ -16,7 +16,7 @@ export default function Section() {
           gelişmek misyonumuzdur.
         </p>
         <div className={styles.btnWrapper}>
-          <Button option="join" />
+          <Button option="join" bgOnShadow />
         </div>
       </div>
     </div>

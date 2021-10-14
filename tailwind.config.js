@@ -16,6 +16,7 @@ module.exports = {
       "1/2": "50%",
       "3/4": "75%",
       full: "100%",
+      max: "max-content",
     },
     colors: {
       primary: "var(--primary-color)",
@@ -29,6 +30,17 @@ module.exports = {
       gray: "var(--gray-color)",
       discord: "var(--discord-color)",
       white: "var(--white)",
+    },
+    borderRadius: {
+      none: "0px",
+      sm: "0.125rem",
+      DEFAULT: "0.25rem",
+      md: "0.375rem",
+      lg: "0.5rem",
+      xl: "0.75rem",
+      "2xl": "30px",
+      "3xl": "50px",
+      full: "9999px",
     },
     spacing: {
       default: "0.375rem 0.75rem",
@@ -51,6 +63,7 @@ module.exports = {
       54: "54px",
       76: "76px",
       95: "95px",
+      200: "200px",
     },
     zIndex: {},
     fontFamily: {
@@ -63,7 +76,7 @@ module.exports = {
       18: "18px",
       24: "24px",
       36: "36px",
-      h1: "66px",
+      h1: "72px",
       h2: "50px",
       h3: "46px",
       h4: "30px",

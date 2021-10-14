@@ -1,19 +1,19 @@
 .wrapper {
-    @apply container flex mx-auto px-24 bg-shadow pt-48 pb-48 shadow-sm rounded-3xl max-w-1/2 shadow-xl px-48;
+  @apply container flex mx-auto px-24 bg-shadow pt-48 pb-48 shadow-sm rounded-3xl max-w-1/2 shadow-xl px-48;
 }
 
 .header {
-    @apply text-24 text-secondary;
+  @apply text-24 text-secondary;
 }
 
 .description {
-    @apply text-16 text-white;
+  @apply text-16 text-white;
 }
 
 .content {
-    @apply flex flex-col pl-12 text-justify;
+  @apply flex flex-col pl-12 text-justify;
 }
 
 .btnWrapper {
-    @apply xs:flex  xs:mt-16 md:mt-0 justify-end;
+  @apply xs:flex  xs:mt-16 md:mt-0 justify-end;
 }

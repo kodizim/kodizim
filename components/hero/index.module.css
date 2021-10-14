@@ -1,29 +1,23 @@
 .hero {
-  @apply mt-95 container mx-auto;
+  @apply my-76 xs:flex sm:container mx-auto;
 }
 .heroGrid {
-  @apply grid grid-cols-5 gap-16;
+  @apply grid md:grid-cols-5 xs:grid-cols-1 xs:px-36 full:px-200 xl:px-200;
 }
 .left {
-  @apply col-span-2;
+  @apply xs:flex xs:flex-col xs:items-center md:items-start xs:order-1 md:order-none  col-span-2 text-white;
+}
+.left h1 {
+  @apply xs:text-center md:text-left xs:text-36 md:text-h1 text-secondary;
+}
+.left p {
+  @apply text-18;
 }
 
 .imgContainer {
-  @apply col-span-3 flex max-w-full;
+  @apply col-span-3 items-center flex max-w-max;
 }
 
-.imgContainer {
-  width: max-content;
-  display: flex;
-}
-.imgContainer > div {
-  position: unset !important;
-  display: flex !important;
-}
-
-.imgContainer .image {
-  object-fit: contain;
-  width: 100% !important;
-  position: relative !important;
-  height: unset !important;
+.image {
+  @apply max-w-full object-cover;
 }

@@ -16,7 +16,7 @@ function Button({ children = "Aramıza Katıl", option }) {
       )}
       {option === "join" && (
         <div className={cn(styles.join)}>
-          <p> Etkinlikler </p>
+          <p> {children} </p>
           <ArrowRight />
         </div>
       )}

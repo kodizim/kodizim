@@ -1,5 +1,5 @@
 .footer {
-  @apply full:container mx-auto flex flex-col items-center;
+  @apply full:container mx-auto flex flex-col items-center xs:max-w-full;
 }
 
 .footer a {

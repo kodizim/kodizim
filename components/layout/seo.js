@@ -10,8 +10,8 @@ export default function Seo({ title }) {
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
 
-      <title>Kodizim</title>
-      <meta name="description" content="" />
+      <title>Kodizim - {title}</title>
+      <meta name="description" content="Kodizm - İzini Koda Bırak" />
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="" />

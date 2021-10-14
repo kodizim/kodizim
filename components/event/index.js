@@ -21,7 +21,10 @@ export default function Event() {
               title={card.title}
               desc={card.desc}
             >
-              <img src={`/assets/images/${card.variant}.png`} />
+              <img
+                alt={card.variant}
+                src={`/assets/images/${card.variant}.png`}
+              />
             </Card>
           ))}
       </section>

@@ -1,5 +1,5 @@
 .hero {
-  @apply my-76 xs:flex sm:container mx-auto;
+  @apply md:my-76 xs:my-24 xs:flex sm:container mx-auto;
 }
 .heroGrid {
   @apply grid md:grid-cols-5 xs:grid-cols-1 xs:px-36 full:px-200 xl:px-200;
@@ -11,7 +11,7 @@
   @apply xs:text-center md:text-left xs:text-36 md:text-h1 text-secondary;
 }
 .left p {
-  @apply text-18;
+  @apply text-18 md:text-left xs:text-justify;
 }
 
 .imgContainer {

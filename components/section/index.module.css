@@ -9,7 +9,7 @@
   @apply max-w-full h-full object-cover;
 }
 .header {
-  @apply text-24 text-secondary;
+  @apply text-24 xs:text-32 xs:text-center text-secondary;
 }
 
 .description {

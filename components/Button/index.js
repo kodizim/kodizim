@@ -1,8 +1,7 @@
 import styles from "./index.module.css";
 import cn from "classnames";
 
-import DiscordIcon from "@svg/DiscordIcon";
-import { ArrowRight } from "@svg";
+import { ArrowRight, DiscordIcon } from "@svg";
 
 function Button({ children = "Aramıza Katıl", option, bgOnShadow }) {
   return (

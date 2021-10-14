@@ -1,5 +1,5 @@
 import styles from "./index.module.css";
-import Button from "@c/button";
+import Button from "@c/Button";
 
 export default function Section() {
   return (

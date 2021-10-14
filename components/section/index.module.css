@@ -1,7 +1,13 @@
 .wrapper {
-  @apply container flex mx-auto px-24 bg-shadow pt-48 pb-48 shadow-sm rounded-3xl max-w-1/2 shadow-xl px-48;
+  @apply full:container xs:grid gap-32 full:grid-cols-1 md:grid-cols-2 mx-auto full:px-8 md:px-24 bg-shadow pt-48 pb-48 mb-76 shadow-sm rounded-3xl xs:p-32 xl:p-54 full:grid-cols-1 full:max-w-full xs:max-w-3/4 md:max-w-3/4 xl:max-w-1/2 shadow-xl;
 }
 
+.developer {
+  @apply xs:flex xs:justify-center xs:max-w-full;
+}
+.image {
+  @apply max-w-full h-full object-cover;
+}
 .header {
   @apply text-24 text-secondary;
 }

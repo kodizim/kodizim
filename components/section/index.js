@@ -1,12 +1,11 @@
 import styles from "./index.module.css";
-import { Developer } from "@svg";
 import Button from "@c/button";
 
 export default function Section() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.developer}>
-        <Developer />
+        <img className={styles.image} src="/assets/images/developer.png" />
       </div>
       <div className={styles.content}>
         <h1 className={styles.header}>Kendini Kodlayarak Geliştir!</h1>

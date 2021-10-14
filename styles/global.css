@@ -20,7 +20,7 @@
     @apply bg-primary m-0 antialiased font-primary text-16 font-bold;
   }
   a {
-    @apply no-underline hover:text-secondary visited:text-secondary;
+    @apply no-underline hover:text-secondary visited:text-secondary link:text-secondary;
   }
   li {
     @apply list-none p-0;

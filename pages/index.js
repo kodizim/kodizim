@@ -3,6 +3,7 @@ import Seo from "@c/layout/seo";
 import Section from "@c/section";
 import Event from "@c/event";
 import Hero from "@c/hero";
+import SocialMedia from "@c/social";
 
 function LandingPage() {
   return (
@@ -12,6 +13,7 @@ function LandingPage() {
         <Hero />
         <Section />
         <Event />
+        <SocialMedia />
       </Layout>
     </>
   );

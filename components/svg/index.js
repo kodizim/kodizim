@@ -5,4 +5,4 @@ import LinkedIn from "./LinkedIn";
 import Logo from "./Logo";
 import Twitter from "./Twitter";
 
-export { ArrowRight, Developer, Instagram, LinkedIn, Logo, Twitter };
+export { ArrowRight, Developer, LinkedIn, Instagram, Logo, Twitter };

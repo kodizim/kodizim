@@ -1,0 +1,10 @@
+.footer {
+  @apply full:container mx-auto flex flex-col items-center;
+}
+
+.footer a {
+  @apply pt-36 text-18 underline text-secondary;
+}
+.copyright {
+  @apply flex mt-12 mb-200 text-secondary text-14 font-light;
+}

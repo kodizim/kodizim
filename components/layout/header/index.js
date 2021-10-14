@@ -1,6 +1,6 @@
 import Navbar from "../navbar";
 import styles from "./index.module.css";
-import Button from "@c/button";
+import Button from "@c/Button";
 
 function Header() {
   return (

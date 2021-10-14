@@ -1,5 +1,5 @@
 .header {
-  @apply md:container md:flex mx-auto  justify-between py-8 xs:pt-12 md:pt-54;
+  @apply md:container md:flex mx-auto justify-between py-8 xs:pt-12 md:pt-54;
 }
 
 .btnWrapper {

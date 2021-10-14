@@ -8,3 +8,7 @@
 .iconsWrapper {
   @apply pt-24 grid grid-cols-3 justify-center;
 }
+
+.iconsWrapper > div > svg {
+  @apply cursor-pointer;
+}

@@ -1,15 +1,15 @@
 .wrapper {
-    @apply flex flex-col items-center text-center;
+  @apply flex flex-col items-center text-center;
 }
 
 .cardsWrapper {
-    @apply flex;
+  @apply xs:container xs:p-12 xs:mt-32 xs:max-w-3/4  md:max-w-full xl:max-w-3/4 grid full:grid-cols-1 md:grid-cols-3 gap-32;
 }
 
 .headTitle {
-    @apply text-secondary text-36 text-secondary;
+  @apply text-secondary text-36 text-secondary;
 }
 
 .headDesc {
-    @apply text-white text-18 max-w-1/2 items-center justify-center text-center mx-auto;
+  @apply text-white text-18 max-w-1/2 items-center justify-center text-center mx-auto;
 }

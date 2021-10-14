@@ -22,8 +22,9 @@ export default function Event() {
                 key={card.title + card.variant}
                 title={card.title}
                 desc={card.desc}
-                variant={card.variant}
-              />
+              >
+                <img src={`/assets/images/${card.variant}.png`} />
+              </Card>
             ))}
         </div>
       </div>

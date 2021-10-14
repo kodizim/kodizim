@@ -3,11 +3,17 @@ import Button from "@c/button";
 
 export default function Section() {
   return (
-    <div className={styles.wrapper}>
+    <section className={styles.wrapper}>
       <div className={styles.developer}>
-        <img className={styles.image} src="/assets/images/developer.png" />
+        <figure>
+          <img
+            className={styles.image}
+            alt="kodizm"
+            src="/assets/images/developer.png"
+          />
+        </figure>
       </div>
-      <div className={styles.content}>
+      <article className={styles.content}>
         <h1 className={styles.header}>Kendini Kodlayarak Geliştir!</h1>
         <p className={styles.description}>
           Yazılım, tasarım ve teknoloji ile ilgilenen bireyleri bir araya
@@ -18,7 +24,7 @@ export default function Section() {
         <div className={styles.btnWrapper}>
           <Button option="join" bgOnShadow />
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }

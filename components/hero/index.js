@@ -18,7 +18,13 @@ function Hero() {
           <Button option="join"> Aramıza Katıl</Button>
         </article>
         <div className={styles.imgContainer}>
-          <img className={styles.image} src="/assets/images/illustration.png" />
+          <figure>
+            <img
+              className={styles.image}
+              src="/assets/images/illustration.png"
+              alt="kodizm"
+            />
+          </figure>
         </div>
       </div>
     </section>

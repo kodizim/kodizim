@@ -12,7 +12,7 @@ export default function Seo({ title }) {
 
       <title>Kodizim - {title}</title>
       <meta name="description" content="Kodizm - İzini Koda Bırak" />
-
+      <meta name="yandex-verification" content="6adff61af2926794" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="" />
       <meta name="twitter:description" content="" />

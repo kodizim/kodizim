@@ -1,20 +1,13 @@
 import Layout from "@c/layout";
 import Seo from "@c/layout/seo";
+import EventsLayout from "@c/events";
 
 function Events({ data }) {
   return (
     <>
       <Layout>
         <Seo title="Etkinlikler" />
-        {data?.members.map((el, i) => (
-          <div key={el.name + i}>
-            Name: {el.name}, Username: {el.username}
-          </div>
-        ))}
-
-        <div>
-          <img src={data.events[0].highlight_photo} />
-        </div>
+        <EventsLayout data={data} />
       </Layout>
     </>
   );

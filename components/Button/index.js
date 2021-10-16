@@ -19,6 +19,12 @@ function Button({ children = "Aramıza Katıl", option, bgOnShadow }) {
           <ArrowRight />
         </div>
       )}
+      {option === "joinEvent" && (
+        <div className={cn(styles.joinEvent, bgOnShadow && styles.bgOnShadow)}>
+          <p> {children} </p>
+          <ArrowRight />
+        </div>
+      )}
     </>
   );
 }

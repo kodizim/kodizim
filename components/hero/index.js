@@ -15,7 +15,13 @@ function Hero() {
             topluluk olma yolunda ilerliyoruz! Network ve tecrübelerinizi
             paylaşmaya var mısınız?
           </p>
-          <Button option="join"> Aramıza Katıl</Button>
+          <a
+            href="https://kommunity.com/kodizim/events/bursa-kodizim-lansman-ecea7037"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button option="join"> Aramıza Katıl</Button>
+          </a>
         </article>
         <div className={styles.imgContainer}>
           <figure>

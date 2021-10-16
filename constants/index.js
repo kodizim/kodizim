@@ -1,7 +1,7 @@
 const Nav = [
-  { name: "Hakkımızda", link: "/" },
+  // { name: "Hakkımızda", link: "/" },
   { name: "Etkinlikler", link: "/events" },
-  { name: "S.S.S", link: "/sss" },
+  // { name: "S.S.S", link: "/sss" },
 ];
 
 const CardInfo = [

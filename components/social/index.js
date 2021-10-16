@@ -12,17 +12,17 @@ function SocialMedia() {
           etkinliklerini takip edebilirsiniz.
         </p>
         <div className={styles.iconsWrapper}>
-          <Link href="">
+          <Link href="https://www.linkedin.com/company/kodizim">
             <div>
               <LinkedIn />
             </div>
           </Link>
-          <Link href="">
+          <Link href="https://twitter.com/Kodizimcom">
             <div>
               <Twitter />
             </div>
           </Link>
-          <Link href="">
+          <Link href="https://instagram.com/kodizimcom">
             <div>
               <Instagram />
             </div>

@@ -22,7 +22,13 @@ export default function Section() {
           gelişmek misyonumuzdur.
         </p>
         <div className={styles.btnWrapper}>
-          <Button option="join" bgOnShadow />
+          <a
+            href="https://kommunity.com/kodizim/events/bursa-kodizim-lansman-ecea7037"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button option="join" bgOnShadow />
+          </a>
         </div>
       </article>
     </section>

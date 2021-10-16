@@ -7,7 +7,13 @@ function Header() {
     <header className={styles.header}>
       <Navbar />
       <div className={styles.btnWrapper}>
-        <Button option="discord" />
+        <a
+          href="https://discord.gg/kRX87hkBsm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button option="discord" />
+        </a>
       </div>
     </header>
   );

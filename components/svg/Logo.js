@@ -10,7 +10,7 @@ export default function Logo() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clipPath="url(#clip0)">
+      <g clipPath="url(#clip0_786:2787)">
         <path
           d="M16.6667 10.6034H26.5538L14.1378 25.4807L26.5087 41.3942H16.4624L8.41831 30.3865L8.15503 30.7263V41.3772H0.17334V10.6034H8.14117V21.9949L16.6667 10.6034Z"
           fill="#5AFFC9"
@@ -51,17 +51,9 @@ export default function Logo() {
           fill="#5AFFC9"
           stroke="#5AFFC9"
         />
-        <line
-          y1="41.97"
-          x2="196"
-          y2="41.97"
-          stroke="white"
-          strokeWidth="0.06"
-        />
-        <line y1="9.97" x2="196" y2="9.97" stroke="white" strokeWidth="0.06" />
       </g>
       <defs>
-        <clipPath id="clip0">
+        <clipPath id="clip0_786:2787">
           <rect width="174" height="44" fill="white" />
         </clipPath>
       </defs>

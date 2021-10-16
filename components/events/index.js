@@ -6,18 +6,7 @@ export default function EventsLayout(props) {
   return (
     <div className={styles.wrapper}>
       {p.data?.events.map((e, i) => (
-        <EventCard data={e} info={p.data} />
-      ))}
-      {p.data?.events.map((e, i) => (
-        <EventCard data={e} info={p.data} />
-      ))}
-      {p.data?.events.map((e, i) => (
-        <EventCard data={e} info={p.data} />
-      ))}
-      {p.data?.events.map((e, i) => (
-        <div key={e.name + i}>
-          <EventCard data={e} info={p.data} />
-        </div>
+        <EventCard key={i} data={e} info={p.data} />
       ))}
     </div>
   );

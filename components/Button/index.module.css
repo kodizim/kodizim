@@ -17,3 +17,11 @@
 .join p {
   @apply pl-12 text-secondary pr-16;
 }
+
+.joinEvent p {
+  @apply pl-12 text-secondary pr-16 m-8;
+}
+
+.joinEvent {
+  @apply flex items-center max-w-max bg-primary mb-2 px-24 rounded-2xl cursor-pointer;
+}

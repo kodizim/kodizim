@@ -9,14 +9,17 @@ export default function Seo({ title }) {
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-
+      <link rel="icon" href="/kodizim.ico" />
       <title>Kodizim - {title}</title>
       <meta name="description" content="Kodizm - İzini Koda Bırak" />
       <meta name="yandex-verification" content="6adff61af2926794" />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:title" content="" />
-      <meta name="twitter:description" content="" />
-      <meta name="twitter:site" content="Kodizm" />
+      <meta name="twitter:title" content="https://twitter.com/Kodizimcom" />
+      <meta
+        name="twitter:description"
+        content="https://twitter.com/Kodizimcom"
+      />
+      <meta name="twitter:site" content="https://twitter.com/Kodizimcom" />
 
       <meta property="og:type" content="website" />
       <meta property="og:title" content="" />

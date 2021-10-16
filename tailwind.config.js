@@ -72,8 +72,8 @@ module.exports = {
     },
     zIndex: {},
     fontFamily: {
-      primary: "IBM Plex Sans",
-      secondary: "Roboto",
+      primary: ["IBM Plex Sans", "ui-sans-serif", "system-ui"],
+      secondary: ["Roboto"],
     },
     boxShadow: {
       sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",

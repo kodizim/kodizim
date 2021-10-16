@@ -13,7 +13,7 @@
 }
 
 .description {
-  @apply text-16 text-white;
+  @apply text-16 text-white font-medium;
 }
 
 .content {

@@ -1,3 +1,7 @@
 .wrapper {
   @apply flex flex-col max-w-full text-white md:px-36 justify-between;
 }
+
+.wrapper p {
+  @apply font-normal;
+}

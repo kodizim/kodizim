@@ -11,5 +11,5 @@
 }
 
 .headDesc {
-  @apply text-white text-18 max-w-1/2 items-center justify-center text-center mx-auto;
+  @apply text-white text-18 max-w-1/2 items-center justify-center text-center mx-auto font-medium;
 }

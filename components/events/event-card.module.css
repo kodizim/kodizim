@@ -14,7 +14,7 @@
 }
 
 .descWrapper {
-    @apply px-12 pb-4;
+    @apply px-12 pb-4 font-normal;
 }
 
 .descContent {

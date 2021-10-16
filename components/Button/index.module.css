@@ -3,7 +3,7 @@
 }
 
 .discord p {
-  @apply pl-12 text-white;
+  @apply pl-12 text-white font-primary;
 }
 
 .join {
@@ -15,11 +15,11 @@
 }
 
 .join p {
-  @apply pl-12 text-secondary pr-16;
+  @apply pl-12 text-secondary pr-16 font-primary;
 }
 
 .joinEvent p {
-  @apply pl-12 text-secondary pr-16 m-8;
+  @apply pl-12 text-secondary pr-16 m-8 font-primary;
 }
 
 .joinEvent {

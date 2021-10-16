@@ -2,6 +2,10 @@
   @apply xs:container mb-76 mx-auto text-white text-center bg-shadow shadow-xl mt-76 rounded-3xl xs:p-24 lg:p-48 xs:max-w-3/4 xl:max-w-1/2;
 }
 
+.social p {
+  @apply font-normal;
+}
+
 .social h2 {
   @apply text-36 text-secondary;
 }

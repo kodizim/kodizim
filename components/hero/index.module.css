@@ -11,7 +11,7 @@
   @apply xs:text-center md:text-left xs:text-36 md:text-h1 text-secondary;
 }
 .left p {
-  @apply text-18 md:text-left xs:text-justify;
+  @apply text-18 md:text-left xs:text-justify font-medium leading-6;
 }
 
 .imgContainer {
